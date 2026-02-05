@@ -1,86 +1,103 @@
+/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #0b4f6c;
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f9fafb;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* Header */
+.header-main {
+    background: #0d4a6f;
     color: #fff;
-    padding: 20px;
+    padding: 18px 24px;
 }
-
-.header-container {
+.header-inner {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
+}
+.logo {
+    width: 60px;
+}
+.header-main h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 
-header img {
-    width: 70px;
-}
-
-header span {
-    font-size: 0.9em;
-    font-weight: normal;
-}
-
-.cards-menu {
+/* Grid de Cards */
+.card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 15px;
-    padding: 20px;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 16px;
 }
 
 .card {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
     text-decoration: none;
-    color: #000;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
+    color: #1f2937;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
 }
 
-main {
-    background: #f5f5f5;
-    padding: 20px;
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
 }
 
-section {
-    margin-bottom: 40px;
+/* Sections */
+.section-block {
+    padding: 24px 16px;
+    border-top: 1px solid #e5e7eb;
 }
 
-h2 {
-    margin-bottom: 15px;
-    color: #0b4f6c;
+.section-block h2 {
+    margin-bottom: 14px;
+    font-size: 1.5rem;
+    color: #0d4a6f;
 }
 
-form {
+/* Form */
+.contact-section .form-grid {
     display: grid;
-    gap: 10px;
-    max-width: 600px;
+    gap: 12px;
+    max-width: 700px;
+    margin: auto;
 }
-
-input, textarea, button {
+.contact-section input,
+.contact-section textarea {
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
 }
-
-button {
-    background-color: #0b4f6c;
+.contact-section button {
+    background: #0d4a6f;
     color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
 }
 
-footer {
-    background-color: #0b4f6c;
+/* Footer */
+.footer-main {
+    background: #0d4a6f;
     color: #fff;
-    padding: 20px;
+    padding: 18px 24px;
+    text-align: center;
 }
