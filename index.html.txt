@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Habitacional | Mogi das Cruzes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <img src="img/brasao-mogi.png" alt="Brasão de Mogi das Cruzes">
+        <h1>Portal Habitacional<br><span>Mogi das Cruzes</span></h1>
+    </div>
+</header>
+
+<nav class="cards-menu">
+    <a href="https://homologacao-mogidascruzes.sishabi.com.br/portal/dashboard" class="card">
+        <h3>Cadastro Habitacional</h3>
+        <p>Crie, consulte ou atualize seu cadastro.</p>
+    </a>
+
+    <a href="https://homologacao-mogidascruzes.sishabi.com.br/publicos/protocolo" class="card">
+        <h3>Consultar Protocolo</h3>
+        <p>Acompanhe seu atendimento.</p>
+    </a>
+
+    <a href="#legislacao" class="card">
+        <h3>Legislação</h3>
+        <p>Leis e decretos habitacionais.</p>
+    </a>
+
+    <a href="#informacoes" class="card">
+        <h3>Informações</h3>
+        <p>Serviços, publicações e notícias.</p>
+    </a>
+</nav>
+
+<main>
+    <!-- LEGISLAÇÃO -->
+    <section id="legislacao">
+        <h2>Legislação Habitacional</h2>
+
+        <h3>Legislação Municipal</h3>
+        <ul>
+            <li>Lei Complementar nº 150/2019 — Plano Diretor</li>
+            <li>Lei Municipal nº 7.999/2023 — Parcelamento do Solo</li>
+            <li>Lei Municipal nº 8.037/2023 — Incentivos fiscais</li>
+            <li>Decreto Municipal nº 21.130/2022 — Cadastro Municipal de Habitação</li>
+        </ul>
+
+        <h3>Legislação Federal</h3>
+        <ul>
+            <li>Lei Federal nº 10.257/2001 — Estatuto da Cidade</li>
+            <li>Lei Federal nº 13.465/2017 — REURB</li>
+            <li>Lei Federal nº 14.620/2023 — Minha Casa Minha Vida</li>
+            <li>Decreto Federal nº 12.260/2024 — Periferia Viva</li>
+        </ul>
+
+        <h3>Legislação Estadual</h3>
+        <ul>
+            <li>Programas CDHU</li>
+            <li>Programa Cidade Legal</li>
+            <li>Programa Viver Melhor</li>
+            <li>Programa Vida Longa</li>
+        </ul>
+    </section>
+
+    <!-- INFORMAÇÕES -->
+    <section id="informacoes">
+        <h2>Informações</h2>
+
+        <div class="cards-menu">
+            <a class="card" href="https://www.mogidascruzes.sp.gov.br/pagina/secretaria-de-habitacao-social-e-regularizacao-fundiaria/servicos">Carta de Serviços</a>
+
+            <a class="card" href="https://www.mogidascruzes.sp.gov.br/pagina/secretaria-de-habitacao-social-e-regularizacao-fundiaria/publicacoes">Publicações Oficiais</a>
+
+            <a class="card" href="https://www.mogidascruzes.sp.gov.br/pagina/secretaria-de-habitacao-social-e-regularizacao-fundiaria/noticias">Notícias da Habitação</a>
+
+            <a class="card" href="https://www.mogidascruzes.sp.gov.br/pagina/secretaria-de-habitacao-social-e-regularizacao-fundiaria/perguntas-frequentes">Perguntas Frequentes</a>
+        </div>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section>
+        <h2>Contato</h2>
+
+        <form action="mailto:habitacao@mogidascruzes.sp.gov.br" method="post" enctype="text/plain">
+            <input type="text" name="Assunto" placeholder="Assunto" required>
+            <input type="text" name="Nome" placeholder="Nome completo" required>
+            <input type="text" name="CPF" placeholder="CPF" required>
+            <input type="tel" name="Telefone" placeholder="Telefone" required>
+            <input type="date" name="Data de Nascimento" required>
+            <input type="email" name="Email" placeholder="E-mail" required>
+            <textarea name="Mensagem" placeholder="Mensagem (até 300 caracteres)" maxlength="300" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <h3>Contato</h3>
+    <p><strong>Fale com a Habitação Online</strong><br>
+    📱 WhatsApp: (11) 95023-5455</p>
+
+    <p><strong>Atendimento Presencial</strong><br>
+    Av. Vereador Narciso Yague Guimarães, 277 – Centro Cívico<br>
+    Terças e Quintas, das 9h às 16h</p>
+
+    <p>
+    Tel.: (11) 4798-6714<br>
+    E-mail: habitacao@mogidascruzes.sp.gov.br
+    </p>
+</footer>
+
+</body>
+</html>
